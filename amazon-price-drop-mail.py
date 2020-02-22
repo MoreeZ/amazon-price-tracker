@@ -42,4 +42,5 @@ def sendMail():
 while True:
     if(formatedPrice < 1000):
         sendMail()
+        quit()
     time.sleep(43200)
